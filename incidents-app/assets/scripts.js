@@ -29,7 +29,7 @@ function setupIncidentForm() {
           <td class="p-2 border">${item[3]}</td>
         </tr>`
       );
-      $('#customerTable').html(rows.join(''));
+      $('#customersTable').html(rows.join(''));
     });
   }
   
